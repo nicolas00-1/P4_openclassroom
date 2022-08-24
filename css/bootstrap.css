@@ -1658,7 +1658,8 @@ mark {
 }
 
 .text-center {
-    text-align: center
+    text-align: center;
+    font-size: 1em;
 }
 
 .text-justify {
@@ -1970,36 +1971,36 @@ pre code {
     color: inherit;
     white-space: pre-wrap;
     background-color: transparent;
-    border-radius: 0
+    border-radius: 0;
 }
 
 .pre-scrollable {
     max-height: 340px;
-    overflow-y: scroll
+    overflow-y: scroll;
 }
 
 .container {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
 }
 
 @media (min-width:768px) {
     .container {
-        width: 750px
+        width: 750px;
     }
 }
 
 @media (min-width:992px) {
     .container {
-        width: 970px
+        width: 970px;
     }
 }
 
 @media (min-width:1200px) {
     .container {
-        width: 1170px
+        width: 1170px;
     }
 }
 
@@ -2007,12 +2008,12 @@ pre code {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
 }
 
 .row {
     margin-right: -15px;
-    margin-left: -15px
+    margin-left: -15px;
 }
 
 .col-lg-1,

@@ -651,13 +651,8 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000!important;
 }
-
-.container {
-    max-width: 1000px;
-}
-
 .hero-bloc-text {
     font-size: 38px;
 }
@@ -673,7 +668,7 @@ a {
     text-align: center;
     font-weight: lighter;
     max-width: 520px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 p {
@@ -682,7 +677,8 @@ p {
 
 .tight-width-whitespace {
     max-width: 600px;
-    margin: auto auto auto auto;
+    margin: auto;
+    font-size: 1.1em;
 }
 
 .h1 {
@@ -741,6 +737,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    min-width: 50%;
+    object-fit: cover;
 }
 
 .portfolio-row {
@@ -775,7 +773,8 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFF!important;
+    font-size: 1.1em;
 }
 
 .btn-atomic-tangerine {
@@ -1039,4 +1038,50 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+    .social{
+        display: flex;
+        justify-content: space-around;
+    }
+    .col-sm-6{
+        margin-bottom: 50px;
+    }
+    .portfolio-thumb{
+        max-width: 50%;
+    }
+}
+.btn-d{
+    color: #FFF!important;
+}
+.black ,.icon-md{
+    color: #000!important;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.bloc__title-h2{
+    max-width: 62rem;
+    margin: auto;
+}
+.citation{
+    font-size: 18px;
+    max-width: 51rem;
+    margin: auto;
+}
+.citation>span{
+    font-weight: bold;
+    font-style: italic;
+}
+.portfolio__title-h2{
+    max-width: 42rem;
+    margin: auto;
+}
+.img-responsive{
+    margin: auto;
+}
+.adresse{
+    font-size: 1.1em;
+}
+.mg{
+    font-size: 1.5em;
 }
