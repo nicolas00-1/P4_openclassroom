@@ -289,7 +289,7 @@ a:hover {
     padding: 3px 15px;
     font-size: 25px;
     font-weight: normal;
-    font-weight: 600;
+    margin: 10px;
     line-height: 44px;
 }
 
@@ -720,10 +720,6 @@ h4 {
     margin-top: 24px;
 }
 
-.white {
-    color: #FFFFFF!important;
-}
-
 .portfolio-thumb {
     margin-bottom: 24px;
     min-width: 50%;
@@ -765,10 +761,6 @@ h4 {
 .btn-atomic-tangerine {
     background: #ffa478 !important;
     color: black!important;
-}
-
-.ltc-white {
-    color: #FFFFFF!important;
 }
 
 .ltc-atomic-tangerine {
