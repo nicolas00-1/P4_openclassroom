@@ -237,7 +237,7 @@ th {
     h3,
     p {
         orphans: 3;
-        widows: 3
+        widows: 3;
     }
     h2,
     h3 {
@@ -3560,7 +3560,6 @@ textarea.input-lg {
     vertical-align: middle;
     touch-action: manipulation;
     cursor: pointer;
-    user-select: none;
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px
